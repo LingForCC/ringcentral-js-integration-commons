@@ -13,10 +13,8 @@
     "release": "node ./node_modules/babel-cli/bin/babel-node.js ./node_modules/gulp/bin/gulp.js release",
     "dev-server": "node ./node_modules/babel-cli/bin/babel-node.js ./node_modules/gulp/bin/gulp.js dev-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ringcentral/ringcentral-js-integration-commons.git"
-  },
+  
+  "
   "author": "RingCentral Integration",
   "license": "MIT",
   "bugs": {
