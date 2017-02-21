@@ -15,13 +15,13 @@ This project is built based on [RingCentral Client](https://www.npmjs.com/packag
 
 To use this library, please follow below steps
 
-1. Install from NPM
+Install from NPM
 
 ```bash
 npm install ringcentral-integration
 ```
 
-2. Create your own Phone object
+Create your own Phone object by adding modules
 
 ```javascript
 import { combineReducers, createStore } from 'redux';
@@ -41,7 +41,7 @@ phone.setStore(store);
 
 ```
 
-Now the Phone object is ready for use.
+Now you are armed with a set of RingCentral services.
 
 **Notice: If you have no idea what this section is talking about, which is the case most of the time, please reference next section for more info.** 
 
@@ -105,13 +105,13 @@ phone.setStore(store);
 
 A development server is delivered with source so that developers can use it to get familiar with the project or do further development. To get development server running
 
-1. Clone the repo
+Clone the repo
 
 ```bash
 git clone https://github.com/ringcentral/ringcentral-js-integration-commons.git
 ```
 
-2. Create a file named config.js in following format in folder `dev-server` to specify app related info 
+Create a file named config.js in following format in folder `dev-server` to specify app related info 
 
 ```javascript
 export default {
@@ -123,7 +123,7 @@ export default {
 };
 ```
 
-3. Run following commond to start development server
+Run following command to start development server
 
 ```bash
 npm run dev-server
